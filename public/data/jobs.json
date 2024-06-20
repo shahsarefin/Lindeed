@@ -1,0 +1,117 @@
+[
+    {
+      "id": 1,
+      "logo": "https://logo.clearbit.com/google.com",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Remote",
+      "location": "Toronto, Canada",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "A Technical Database Engineer is responsible for designing, implementing, and maintaining database systems that support various applications.",
+      "job_responsibility": "Manage database architecture, ensure data integrity, optimize database performance, and work closely with software developers to integrate databases with applications.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+      "experiences": "2-3 years of experience in database management.",
+      "contact_information": {
+        "phone": "416-123-4567",
+        "email": "info@google.ca",
+        "address": "111 Richmond St W, Toronto, ON"
+      }
+    },
+    {
+      "id": 2,
+      "logo": "https://logo.clearbit.com/netflix.com",
+      "job_title": "Senior Product Designer",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Onsite",
+      "location": "Vancouver, Canada",
+      "job_type": "Full Time",
+      "salary": "120k-170k",
+      "job_description": "A Senior Product Designer is responsible for leading the design of products from conception to final implementation.",
+      "job_responsibility": "Collaborate with cross-functional teams to define design strategies, create wireframes and prototypes, and ensure a seamless user experience.",
+      "educational_requirements": "Bachelor's degree in Design or a related field.",
+      "experiences": "5+ years of experience in product design.",
+      "contact_information": {
+        "phone": "604-123-4567",
+        "email": "info@netflix.ca",
+        "address": "555 W Hastings St, Vancouver, BC"
+      }
+    },
+    {
+      "id": 3,
+      "logo": "https://logo.clearbit.com/tesla.com",
+      "job_title": "Software Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Onsite",
+      "location": "Montreal, Canada",
+      "job_type": "Full Time",
+      "salary": "110k-160k",
+      "job_description": "A Software Engineer at Tesla is responsible for developing and maintaining software applications that support the company's operations.",
+      "job_responsibility": "Design, code, test, and deploy software solutions, collaborate with other engineers and teams, and participate in code reviews and architecture discussions.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+      "experiences": "3-5 years of experience in software development.",
+      "contact_information": {
+        "phone": "514-123-4567",
+        "email": "info@tesla.ca",
+        "address": "1200 Stanley St, Montreal, QC"
+      }
+    },
+    {
+      "id": 4,
+      "logo": "https://logo.clearbit.com/google.com",
+      "job_title": "Software Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Onsite",
+      "location": "Toronto, Canada",
+      "job_type": "Full Time",
+      "salary": "110k-160k",
+      "job_description": "A Software Engineer at Google is responsible for developing high-quality software solutions and applications.",
+      "job_responsibility": "Write clean, efficient code, troubleshoot and debug applications, and work collaboratively with cross-functional teams.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+      "experiences": "3-5 years of experience in software engineering.",
+      "contact_information": {
+        "phone": "416-123-4567",
+        "email": "info@google.ca",
+        "address": "111 Richmond St W, Toronto, ON"
+      }
+    },
+    {
+      "id": 5,
+      "logo": "https://logo.clearbit.com/tesla.com",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Remote",
+      "location": "Calgary, Canada",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "A Technical Database Engineer is responsible for managing and optimizing the performance of databases.",
+      "job_responsibility": "Ensure data integrity, perform database tuning, backup and recovery, and collaborate with development teams to optimize database usage.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+      "experiences": "2-3 years of experience in database engineering.",
+      "contact_information": {
+        "phone": "403-123-4567",
+        "email": "info@tesla.ca",
+        "address": "400 3 Ave SW, Calgary, AB"
+      }
+    },
+    {
+      "id": 6,
+      "logo": "https://logo.clearbit.com/netflix.com",
+      "job_title": "Senior Product Designer",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Remote",
+      "location": "Toronto, Canada",
+      "job_type": "Full Time",
+      "salary": "120k-170k",
+      "job_description": "A Senior Product Designer at Netflix is responsible for leading design projects and ensuring high-quality user experiences.",
+      "job_responsibility": "Lead design projects from concept to execution, create user flows, wireframes, and prototypes, and collaborate with product managers and engineers.",
+      "educational_requirements": "Bachelor's degree in Design or a related field.",
+      "experiences": "5+ years of experience in product design.",
+      "contact_information": {
+        "phone": "416-123-4567",
+        "email": "info@netflix.ca",
+        "address": "100 King St W, Toronto, ON"
+      }
+    }
+  ]
+  
