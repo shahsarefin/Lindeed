@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaDollarSign } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
     return (
@@ -30,15 +31,12 @@ const Job = ({ job }) => {
                 <button className="bg-gray-200 text-gray-800 px-2 py-1 rounded">{job.remote_or_onsite}</button>
             </div>
             <div className="flex justify-between">
-
-            <button className="bg-gradient-to-r from-indigo-500 to to-blue-500 text-white px-4 py-2 rounded">
+                <Link to={`/job/${job.id}`} className="bg-gradient-to-r from-indigo-500 to-blue-500 text-white px-4 py-2 rounded">
                     Show Details
-                </button>
-
+                </Link>
                 <button className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded">
                     Apply Now
                 </button>
-                
             </div>
         </div>
     );
