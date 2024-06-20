@@ -1,6 +1,5 @@
 import React from 'react';
-import bgImage from '/public/img/bg.png'; // Ensure the path is correct
-import userImage from '/public/img/user.png'; // Ensure the path is correct
+import userImage from '/img/user.png'; 
 
 const Banner = () => {
     return (
