@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-
-
+import { saveAppliedJobs } from '../../utility/localstorage';
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -24,6 +23,11 @@ const JobDetails = () => {
     }
 
     const handleApplyJob = () => {
+        saveAppliedJobs({
+            id: job.id,
+            job_title: job.job_title,
+            company_name: job.company_name
+        });
         toast.success('Job applied successfully!');
     }
 
@@ -78,14 +82,13 @@ const JobDetails = () => {
                         <p className="text-gray-700"><strong>Email:</strong> {job.contact_information.email}</p>
                         <p className="text-gray-700"><strong>Address:</strong> {job.contact_information.address}</p>
                     </div>
-                    <button onClick ={handleApplyJob} className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded mt-4">
+                    <button onClick={handleApplyJob} className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded mt-4">
                         Apply Now
                     </button>
                 </div>
             </div>
             <ToastContainer />
         </div>
-        
     );
 };
 
